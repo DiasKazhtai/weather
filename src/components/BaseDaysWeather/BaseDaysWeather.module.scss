@@ -1,0 +1,19 @@
+.BaseDaysWeather {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    justify-content: space-around;
+
+    &__item {
+        width: 75px;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        &:hover {
+            border: 1px solid yellow;
+            border-radius: 8px;
+        }
+    }
+}
