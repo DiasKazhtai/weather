@@ -7,6 +7,14 @@
     color: #878787;
     display: flex;
     flex-direction: column;
+    position: relative;
+
+    &__history {
+        position: absolute;
+        right: 15px;
+        top: 0;
+        cursor: pointer;
+    }
 
     &__cityName {
         font-size: 24px;
